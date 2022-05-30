@@ -8,6 +8,8 @@ COPY funkcja_perceptron.py .
 
 COPY modelowanie.py .
 
+COPY model.pkl .
+
 COPY app.py .
 
 RUN pip install -r requirements.txt
